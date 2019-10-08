@@ -1,19 +1,6 @@
 import React, { useReducer } from "react";
+import {initialState, reducer} from '../reducers/reducer';
 
-export const initialState = [
-  {
-    item: "Learn about reducers",
-    completed: false,
-    id: 3892987589
-  }
-];
-
-export function reducer(state, action) {
-  switch (action.type) {
-    default:
-      return state;
-  }
-}
 
 export default function Todos() {
   const [state, dispatch] = useReducer(reducer, initialState);

@@ -1,11 +1,11 @@
 import React from 'react';
-import Reducer from './reducers/Reducer';
 import './App.css';
+import Todos from './components/Todos';
 
 function App() {
   return (
     <div className="App">
-      <Reducer />
+      <Todos />
     </div>
   );
 }
